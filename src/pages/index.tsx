@@ -80,7 +80,7 @@ const BoardScreen = () => {
 
     const switchAutoPlay = () => {
         // Step 3 BEGIN
-        timerRef.current = setInterval(() => {}, 200);
+
         // Step 3 END
     };
 

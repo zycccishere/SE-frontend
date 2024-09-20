@@ -62,3 +62,8 @@ export const flipCell = (board: Board, i: number, j: number): Board => {
     throw new Error("This line should be unreachable.");
     return board;
 };
+
+export const badFlipCell = (board: Board, i: number, j: number): Board => {
+    board[i][j] = board[i][j] === 0 ? 1 : 0;
+    return board;
+};
